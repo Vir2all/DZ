@@ -1,5 +1,9 @@
 <ul>
 <?php
+/**Функиця формирования навигационного меню
+ * @return string
+ */
+
     global $NAVMENU;
     foreach ($NAVMENU as $menuitem => $menuaction) {
         ?>
@@ -12,3 +16,4 @@
     };
 ?>
 </ul>
+

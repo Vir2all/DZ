@@ -7,14 +7,13 @@
     </title>
 </head>
 <body>
-<header>
-    <h1>Интернет магазин цветов</h1>
+    <header>
+        <h1>Интернет магазин</h1>
     <hr>
-</header>
-<nav>
-    <?=$menu?>
-</nav>
-
+    </header>
+        <nav>
+            <?=$menu?>
+        </nav>
     <?=$body?>
 </body>
 <footer>

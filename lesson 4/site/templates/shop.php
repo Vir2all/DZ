@@ -1,7 +1,6 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: User
- * Date: 30.06.2016
- * Time: 0:37
- */
+<div>
+    <h2>Магазин</h2>
+    <div>
+        <?=renderGoods($id, $sec)?>
+    </div>
+</div>
