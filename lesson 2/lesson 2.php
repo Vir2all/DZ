@@ -62,14 +62,18 @@ echo $time2;
 function number ($n) {
     if ($n < 0) {
         echo "$n";
+
         $n++;
         number ($n);
+
     } elseif ($n == 0){
         echo "$n";
+
     } elseif ($n > 0) {
         echo "$n";
         $n--;
         number ($n);
+
     }
 }
 number(9);
