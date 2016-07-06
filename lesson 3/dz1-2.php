@@ -6,10 +6,10 @@
 </head>
 <body>
 <?php
+
 /**
  * Создадим массим
  */
-
 $MESSAGE = [
     1 => [
     "menutext" => "Главная",
@@ -37,7 +37,9 @@ $MESSAGE = [
     ]
 ];
 
-/**Нужно разобраться с со значением null*/
+/**
+ * 
+ */
 $position = isset($_GET['pos']) ? $_GET['pos'] : null;
 
 foreach($MESSAGE as $href => $text) {
