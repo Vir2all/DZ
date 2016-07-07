@@ -36,7 +36,7 @@ $position = isset($_GET['page']) ? $_GET['page'] : 'null';
 
 foreach ($MENU as $key => $value)
 {
-    echo '<a href="  $MENU[$key]['menutext'] . '<br>';
+    echo '<a href=""' . $MENU[$key]['menutext'] . '<br>';
 }
 ?>
 </body>
